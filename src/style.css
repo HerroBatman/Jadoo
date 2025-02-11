@@ -716,85 +716,84 @@ header {
   align-items: center;
   justify-content: center;
 }
-.about-us{
+.about-us {
   display: flex;
 }
-.footer{
+.footer {
   padding: 100px 0;
 }
-#first-tittle{
+#first-tittle {
   font-size: 44px;
   line-height: 66px;
   font-weight: 400;
   color: rgba(24, 30, 75, 1);
 }
-.text-footer{
+.text-footer {
   font-size: 13px;
   font-weight: 400;
   line-height: 16px;
   color: rgba(94, 98, 130, 1);
   padding-right: 70px;
 }
-.tiitle-footer{
+.tiitle-footer {
   line-height: 26px;
   font-weight: 700;
   font-size: 21px;
   color: rgba(8, 8, 9, 1);
 }
-.list-footer{
+.list-footer {
   list-style: none;
 }
-.list-footer li{
+.list-footer li {
   margin-top: 10px;
 }
-.li-footer{
+.li-footer {
   font-weight: 400;
   line-height: 22px;
   font-size: 18px;
   color: rgba(94, 98, 130, 1);
 }
-.social{
+.social {
   display: flex;
   align-items: center;
 }
-.app{
+.app {
   width: 41px;
   height: 41px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-   margin-left: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-left: 15px;
 }
-.instagram{
+.instagram {
   background: linear-gradient(
-  to bottom, 
-  rgba(184, 210, 241, 1) ,
-  rgba(242, 137, 170, 1),
-  rgba(198, 139, 240, 1),
-  rgba(209, 100, 218, 1),
-  rgba(191, 194, 232, 1),
-  rgba(255, 201, 153, 1),
-  rgba(208, 216, 201, 1),
-  rgba(186, 208, 241, 1),
-  rgba(206, 216, 203, 1),
-  rgba(255, 255, 255, 0)
-    /* Màu xanh dương với độ trong suốt 40% */
-);
+    to bottom,
+    rgba(184, 210, 241, 1),
+    rgba(242, 137, 170, 1),
+    rgba(198, 139, 240, 1),
+    rgba(209, 100, 218, 1),
+    rgba(191, 194, 232, 1),
+    rgba(255, 201, 153, 1),
+    rgba(208, 216, 201, 1),
+    rgba(186, 208, 241, 1),
+    rgba(206, 216, 203, 1),
+    rgba(255, 255, 255, 0) /* Màu xanh dương với độ trong suốt 40% */
+  );
 }
-.discover{
+.discover {
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
   padding-top: 30px;
 }
-.store{
-  margin-top:20px ;
+.store {
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
-.system{
+.system {
   width: 48%;
   background-color: rgba(8, 8, 9, 1);
   padding: 10px;
@@ -802,41 +801,47 @@ header {
   display: flex;
   align-items: center;
 }
-.getiton{
+.getiton {
   margin-left: 10px;
 }
-.get{
+.get {
   color: rgba(255, 255, 255, 1);
   font-size: 10px;
 }
-#iton{
+#iton {
   font-size: 12px;
   font-weight: 800;
 }
-#ggplay{
+#ggplay {
   color: rgba(255, 255, 255, 1);
   font-size: 10px;
   font-weight: 300;
 }
-#availid{
+#availid {
   font-weight: 600;
 }
-#apple{
-  font-size:14px ;
-   font-weight: 800;
+#apple {
+  font-size: 14px;
+  font-weight: 800;
 }
-.display-none{
+.display-none {
   display: none;
 }
 
 /* pv vừa và lớn */
 @media (min-width: 1023px) {
+  body {
+    overflow-x: hidden;
+  }
   .send-icon {
     right: 0px;
   }
 }
 /* tablet-pc phân giải thấp */
 @media (max-width: 1023px) {
+  body {
+    overflow-x: hidden;
+  }
   /* ẩn navbar của pc */
   .nav-bar {
     display: none;
@@ -846,7 +851,6 @@ header {
   .nav-reponsive {
     display: flex;
     flex-direction: column;
-    
   }
   /* end */
   /* chỉnh lại ul nav */
@@ -946,7 +950,7 @@ header {
     position: absolute;
     right: 20px;
   }
-  #sign-up{
+  #sign-up {
     width: 60%;
     margin: 0 auto;
     background-color: rgba(255, 125, 104, 1);
@@ -955,30 +959,33 @@ header {
     margin-bottom: 30px;
     border: none;
   }
-  #sign-up a{
-   color:rgba(255, 255, 255, 1);
+  #sign-up a {
+    color: rgba(255, 255, 255, 1);
   }
-  #iton{
-  font-size: 18px;
-  font-weight: 800;
-}
-#ggplay{
-  color: rgba(255, 255, 255, 1);
-  font-size: 14px;
-  font-weight: 300;
-}
-#availid{
-  font-size: 14px;
-  font-weight: 600;
-}
-#apple{
-  font-size:18px ;
-   font-weight: 800;
-}
+  #iton {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  #ggplay {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  #availid {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #apple {
+    font-size: 18px;
+    font-weight: 800;
+  }
 }
 
 /* Tablet */
 @media (min-width: 740px) {
+  body {
+    overflow-x: hidden;
+  }
   .bg-roma {
     background-size: 100%;
     background-position: center top;
@@ -1011,6 +1018,9 @@ header {
 }
 /* Mobile */
 @media (max-width: 740px) {
+  body {
+    overflow-x: hidden;
+  }
   .text-banner {
     padding-top: 0;
   }
@@ -1107,7 +1117,7 @@ header {
   .send-icon {
     right: 0px;
   }
-  .about-us{
+  .about-us {
     padding: 80px 0;
   }
 }
