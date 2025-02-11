@@ -70,7 +70,7 @@ header {
 
 /*================================================== Banner start================================ */
 .banner-wrapper {
-  background: url("/assets/img/Image.png");
+  background: url("../assets/img/Image.png");
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 60%;
@@ -226,25 +226,25 @@ header {
 }
 
 .bg-satellite {
-  background: url("/assets/img/Group\ 48.png");
+  background: url("../assets/img/Group\ 48.png");
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 18px;
 }
 .bg-fly {
-  background: url("/assets/img/Group\ 51.png");
+  background: url("../assets/img/Group\ 51.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 80% 50%;
 }
 .bg-micro {
-  background: url("/assets/img/Group\ 50.png");
+  background: url("../assets/img/Group\ 50.png");
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 50px;
 }
 .bg-setting {
-  background: url("/assets/img/Group\ 49.png");
+  background: url("../assets/img/Group\ 49.png");
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 45px;
@@ -296,7 +296,7 @@ header {
 }
 
 .bg-roma {
-  background: url("/assets/img/Roma.png");
+  background: url("../assets/img/Roma.png");
   position: relative;
   width: 80%;
   margin: 0 auto;
@@ -306,7 +306,7 @@ header {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 .bg-london {
-  background: url("/assets/img/London.png");
+  background: url("../assets/img/London.png");
   position: relative;
   width: 80%;
   margin: 0 auto;
@@ -316,7 +316,7 @@ header {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 .bg-europe {
-  background: url("/assets/img/Europe.png");
+  background: url("../assets/img/Europe.png");
   background-size: 100%;
   position: relative;
   width: 80%;
@@ -825,6 +825,9 @@ header {
   font-size:14px ;
    font-weight: 800;
 }
+.display-none{
+  display: none;
+}
 
 /* pv vừa và lớn */
 @media (min-width: 1023px) {
@@ -973,6 +976,7 @@ header {
    font-weight: 800;
 }
 }
+
 /* Tablet */
 @media (min-width: 740px) {
   .bg-roma {
